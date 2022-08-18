@@ -1,0 +1,18 @@
+{
+  "name": "prova_pratica_framework_2trimestre_3b1b_39_pedrogribas",
+  "version": "1.0.0",
+  "description": "- Criar endpoints para criação e consulta de turmas. \r  - As turmas deverão ser salvas em um arquivo json, **alunos.json.**\r  - Este arquivo deverá ser criado e seus endpoints devem atuar considerando os registros que serão inseridos no arquivo.\r  - Um registro de turma deve possuir os campos abaixo:\r Id(int): identificador único, deve ser gerado automaticamente pela API e garantido que não se repita.\r ### Ex:\r     Id: Int => 0\r     Nome: String => \"José\"\r     Turma:  String => \"A\"\r     Turno: String => \"Manhã\"\r     Curso: String => \"Análise de Sistemas\"\r ## Questões",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

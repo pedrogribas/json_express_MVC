@@ -1,0 +1,32 @@
+.conteudo{ 
+    margin-top: 10em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.slidercss{
+    background-color: rgb(237, 191, 255);
+}
+.slideritemcss{
+    padding: 2em;
+
+    height:fit-content;
+    border: solid rgb(167, 48, 197) 2px;
+}
+ul{
+    margin-left: 2em;
+    list-style: circle;
+}
+
+button{
+    margin: 5px;
+    min-height: 10px;
+    background-color: #4CAF50; 
+    
+    border: none;
+    border-radius: 15%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  
+}

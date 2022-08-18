@@ -1,0 +1,72 @@
+[
+    {
+        "id": 0,
+        "nome": "aluno1",
+        "turma": "A",
+        "turno": "Noite",
+        "curso": "Game Design"
+    },
+    {
+        "id": 1,
+        "nome": "aluno2",
+        "turma": "C",
+        "turno": "Tarde",
+        "curso": "Engenharia de Software"
+    },
+    {
+        "id": 2,
+        "nome": "aluno3",
+        "turma": "C",
+        "turno": "Manhã",
+        "curso": "Game Design"
+    },
+    {
+        "id": 3,
+        "nome": "aluno4",
+        "turma": "A",
+        "turno": "Noite",
+        "curso": "Análise de Sistemas"
+    },
+    {
+        "id": 4,
+        "nome": "aluno5",
+        "turma": "B",
+        "turno": "Manhã",
+        "curso": "Game Design"
+    },
+    {
+        "id": 5,
+        "nome": "aluno6",
+        "turma": "C",
+        "turno": "Tarde",
+        "curso": "Engenharia de Software"
+    },
+    {
+        "id": 6,
+        "nome": "aluno7",
+        "turma": "A",
+        "turno": "Noite",
+        "curso": "Análise de Sistemas"
+    },
+    {
+        "id": 7,
+        "nome": "aluno8",
+        "turma": "A",
+        "turno": "Manhã",
+        "curso": "Engenharia de Software"
+    },
+    {
+        "id": 8,
+        "nome": "aluno9",
+        "turma": "B",
+        "turno": "Tarde",
+        "curso": "Game Design"
+    },
+    {
+        "id": 9,
+        "nome": "aluno10",
+        "turma": "C",
+        "turno": "Manhã",
+        "curso": "Análise de Sistemas"
+    }
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <!-- fazer tudo em ejs depois-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Classe</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+
+</head>
+<body>
+    <!-- realizar um foreach para mostrar cada aluno no ejs-->
+    <div class="conteudo">
+        <div class="my-slider slidercss">
+            <% let i = 0
+            data.forEach(element => {
+            %>
+            <div class="slider-item slideritemcss">
+                <ul>
+                    <li> <b>ID:</b> <%= data[i].id %></li>
+                    <li> <b>Nome:</b> <%= data[i].nome %></li>
+                    <li> <b>Turma:</b> <%= data[i].turma %></li>
+                    <li> <b>Turno: </b><%= data[i].turno %></li>
+                    <li> <b>Curso:</b> <%= data[i].curso %></li>
+                </ul>
+              
+            </div>
+            <%
+                i++
+            });
+            
+            %> 
+        </div>
+    </div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script>
+        var slider = tns({
+            container: '.my-slider',
+            items: 3,
+            edgePadding: 50,
+            mouseDrag: true,
+            slideBy: 'page'  });
+  </script>
+</body>
+</html>
